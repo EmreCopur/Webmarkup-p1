@@ -2,4 +2,4 @@ Student name: Emre Copur
 Student number: 741798
 Student class: 25vt1b
 GitHub Repository: https://github.com/EmreCopur/Webmarkup-p1
-GitHub Pages URL: your github pages URL
+GitHub Pages URL: https://emrecopur.github.io/Webmarkup-p1/
