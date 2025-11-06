@@ -449,28 +449,6 @@ figcaption {
   margin-bottom: 0;
 }
 
-#cookie-banner {
-  display: flex;
-  position: fixed;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  background-color: var(--primary-dark);
-  color: var(--white);
-  padding: 20px;
-  justify-content: space-between;
-  align-items: center;
-  z-index: 9999;
-  box-shadow: 0 -4px 10px rgba(0,0,0,0.1);
-}
-#cookie-banner p {
-  margin: 0;
-  padding-right: 20px;
-}
-#cookie-accept {
-  background-color: var(--primary-accent);
-  flex-shrink: 0;
-}
 
 .mobile-only {
   display: block;

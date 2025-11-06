@@ -125,6 +125,11 @@ em, i {
   font-style: italic;
 }
 
+blockquote.quote-box-full {
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
 .desktop-only {
   display: none;
 }
@@ -630,6 +635,7 @@ em, i {
 }
 
 .tool-list {
+  text-align: center;
   list-style-type: none;
   padding-left: 0;
 }
