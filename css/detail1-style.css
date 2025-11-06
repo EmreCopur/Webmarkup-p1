@@ -225,7 +225,9 @@ p.intro-paragraph {
 
 
 .responsive-image {
+  margin: 1rem;
   width: 100%;
+  max-height:25rem ;
   height: auto;
   border-radius: 8px;
 }
@@ -409,7 +411,14 @@ figcaption {
   margin-top: 16px; 
   align-self: flex-start; 
 }
+.paragraphs {
+    margin-top: 10rem;
+    display: grid;
+    grid-auto-columns: auto auto auto;
+    grid-row-gap: 10rem;
 
+}
+ 
 .footer {
   display: block;
   background-color: var(--brand-gray-light);
@@ -630,5 +639,17 @@ figcaption {
   .grid-4col {
     grid-template-columns: repeat(4, 1fr);
   }
+
+ 
 }
 
+@media (max-width:1080px) {
+   .paragraphs {
+    margin-top: 2%;
+    display: grid;
+    grid-auto-columns: auto auto auto;
+    grid-row-gap: 1rem;
+
+}
+  
+}
